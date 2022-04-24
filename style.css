@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body {
+    background: linear-gradient(45deg, #23123D, #57378A);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+
+  
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 4rem;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.342);
+    margin: 10px 0px 10px 0px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.404);
+    
+   
+    transition: all .5s ease-in-out;
+    background: #57378A;
+}
+
+.desc {
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: -10px;
+    color:white ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.nome:hover{
+    letter-spacing: 2px;
+    transition: all .5s ease-in-out;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav > a {
+    margin: 5px;
+}
+
+nav > div {
+    padding: 5px;
+
+}
+
+.facebook input[type="submit"] {
+    background: linear-gradient(to right,#0232DB, #02A4DB);
+    padding: 0.7rem;
+    min-width: 200px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+    
+}
+
+.facebook input[type="submit"]:hover {
+
+       
+       letter-spacing: 1px;
+       transition: all .5s ease-in-out;
+       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+       text-decoration-style: wavy;
+}
+
+.twitter input[type="submit"] {
+    background: linear-gradient(to right, #0372FD, #5ea6ff);
+    padding: 0.7rem;
+    min-width: 200px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+}
+
+.twitter input[type="submit"]:hover{
+    letter-spacing: 1px;
+       transition: all .5s ease-in-out;
+       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+
+}
+
+
+
+.linkedin input[type="submit"] {
+    background: linear-gradient(45deg,#0B64C4, #02A4DB);
+    padding: 0.7rem;
+    min-width: 200px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+}
+
+.linkedin input[type="submit"]:hover{
+    letter-spacing: 1px;
+    transition: all .5s ease-in-out;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+}
+
+
+.instagram input[type="submit"] {
+    background: linear-gradient(to right,#c520af, #FFBD41);
+    padding: 0.7rem;
+    min-width: 200px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+}
+
+.instagram input[type="submit"]:hover{
+    letter-spacing: 1px;
+       transition: all .5s ease-in-out;
+       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+
+}
+
+.github input[type="submit"] {
+    background: linear-gradient(to right,#1f151d, #c2c2c2);
+    padding: 0.7rem;
+    min-width: 200px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+}
+
+.github input[type="submit"]:hover{
+    letter-spacing: 1px;
+       transition: all .5s ease-in-out;
+       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+
+}
+
